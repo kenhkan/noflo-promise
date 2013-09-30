@@ -36,6 +36,9 @@
     "grunt-component": "~0.1.2"
   },
   "keywords": [],
+  "scripts": {
+    "test": "grunt test"
+  },
   "noflo": {
     "components": {
       "Then": "./components/Then.coffee"

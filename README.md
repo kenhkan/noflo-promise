@@ -53,5 +53,5 @@ look in procedural JS:
 #### Out-Ports
 
 * OUT: A promise
-* *SUCCESS*: Forwarded the passed value on fulfillment
+* SUCCESS: Forwarded the passed value on fulfillment
 * FAILURE: Forwarded the passed value on rejection
