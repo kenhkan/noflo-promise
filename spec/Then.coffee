@@ -28,6 +28,9 @@ describe 'Then component', ->
       chai.expect(globals.c.inPorts.in).to.be.an 'object'
     it 'should have an output port', ->
       chai.expect(globals.c.outPorts.out).to.be.an 'object'
+      chai.expect(globals.c.outPorts.error).to.be.an 'object'
+      chai.expect(globals.c.outPorts.success).to.be.an 'object'
+      chai.expect(globals.c.outPorts.failure).to.be.an 'object'
 
   describe 'prerequisites', ->
     it 'accepts only a promise', (done) ->

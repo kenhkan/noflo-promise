@@ -41,7 +41,8 @@
   },
   "noflo": {
     "components": {
-      "Then": "./components/Then.coffee"
+      "Then": "./components/Then.coffee",
+      "From": "./components/From.coffee"
     }
   }
 }
