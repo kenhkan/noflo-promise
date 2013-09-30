@@ -32,7 +32,9 @@ class Then extends noflo.Component
       # Apply 'then'
       promise.then onFulfilled, onRejected
 
-      @outPorts.out.send promise
-      @outPorts.out.disconnect()
+      # Forward promise only if there's a receiver
+      if @outPorts.out.isAttached()
+        @outPorts.out.send promise
+        @outPorts.out.disconnect()
 
 exports.getComponent = -> new Then
