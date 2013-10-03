@@ -14,10 +14,10 @@ _existing_ promises used in parts of your program that are _not_ within NoFlo.
 
 ## Usage
 
-* [promise/From](#From)
-* [promise/Then](#Then)
+* [promise/From](#from)
+* [promise/Then](#then)
 
-Listed in-ports in bold are required and out-ports in bold always produce IPs.
+Listed in-ports in **bold** are required and out-ports in **bold** always produce IPs.
 
 
 ### From
@@ -26,11 +26,11 @@ Wrapper around `Promise#from(1)` to convert a non-promise into a promise.
 
 #### In-Ports
 
-* *IN*: The value to convert
+* **IN**: The value to convert
 
 #### Out-Ports
 
-* *OUT*: A promise
+* **OUT**: A promise
 
 
 ### Then
@@ -48,7 +48,7 @@ look in procedural JS:
 
 #### In-Ports
 
-* *IN*: A promise
+* **IN**: A promise
 
 #### Out-Ports
 
